@@ -31,8 +31,8 @@ public class CarRepositoryTest {
 	
 	@Test
 	public void deleteCars() {
-		Car car = new Car("Tesla", "Model X", "White", "ABC-1234", 2017, 86000);
-		entityManager.persistAndFlush(car);
+		entityManager.persistAndFlush(new Car("Tesla", "Model X", "White", "ABC-1234", 2017, 86000));
+		entityManager.persistAndFlush(new Car("Mini", "Cooper", "Yellow", "BWS-3007", 2015, 24500));
 		
 		repository.deleteAll();
 		assertThat(repository.findAll()).isEmpty();

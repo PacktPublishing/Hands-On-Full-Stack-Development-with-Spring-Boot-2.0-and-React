@@ -8,7 +8,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    fetch('http://api.openweathermap.org/data/2.5/weather?q=London&units=Metric&APIkey=c36b03a963176b9a639859e6cf279299')
+    fetch('http://api.openweathermap.org/data/2.5/weather?q=London&units=Metric&APIkey=YOUR_KEY')
   	.then(response => response.json()) 
   	.then(responseData => {
     	this.setState({ 

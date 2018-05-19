@@ -5,6 +5,8 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import {SERVER_URL} from '../constants.js';
 import AddCar from './AddCar.js';
+import { confirmAlert } from 'react-confirm-alert';
+import 'react-confirm-alert/src/react-confirm-alert.css' 
 import {CSVLink} from 'react-csv';
 
 class Carlist extends Component {
@@ -29,6 +31,21 @@ class Carlist extends Component {
     .catch(err => console.error(err));  
   }
   
+  confirmDelete = (link) => {
+    confirmAlert({
+      message: 'Are you sure to delete?',
+      buttons: [
+        {
+          label: 'Yes',
+          onClick: () => this.onDelClick(link)
+        },
+        {
+          label: 'No',
+        }
+      ]
+    })
+  }
+
   // Delete car
   onDelClick = (link) => {
     fetch(link, {method: 'DELETE'})
@@ -133,7 +150,7 @@ class Carlist extends Component {
       filterable: false,
       width: 100,
       accessor: '_links.self.href',
-      Cell: ({value}) => (<button onClick={()=>{this.onDelClick(value)}}>Delete</button>)
+      Cell: ({value}) => (<button onClick={()=>{this.confirmDelete(value)}}>Delete</button>)
     }]
 
     return (

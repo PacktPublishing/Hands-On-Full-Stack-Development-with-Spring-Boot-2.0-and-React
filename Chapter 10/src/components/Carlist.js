@@ -159,7 +159,7 @@ class Carlist extends Component {
         <AddCar addCar={this.addCar} fetchCars={this.fetchCars}/>
         <ReactTable data={this.state.cars} columns={columns} 
           filterable={true} pageSize={10}/>
-        <ToastContainer autoClose={6500}/>  
+        <ToastContainer autoClose={1500}/>  
       </div>
     );
   }

@@ -3,6 +3,7 @@ import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
 import Snackbar from '@material-ui/core/Snackbar';
 import Carlist from './Carlist';
+import {SERVER_URL} from '../constants.js';
 
 class Login extends Component {
   constructor(props) {
@@ -12,7 +13,7 @@ class Login extends Component {
 
   login = () => {
     const user = {username: this.state.username, password: this.state.password};
-    fetch('http://localhost:8080/login', {
+    fetch(SERVER_URL + 'login', {
       method: 'POST',
       body: JSON.stringify(user)
     })

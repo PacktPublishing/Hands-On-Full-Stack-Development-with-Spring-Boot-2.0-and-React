@@ -50,7 +50,7 @@ With the following software and hardware list you can run all code files present
 ### Related products <Paste books from the Other books you may enjoy section>
 * Hands-On High Performance with Spring 5 [[Packt]](https://www.packtpub.com/application-development/hands-high-performance-spring-5?utm_source=github&utm_medium=repository&utm_campaign=9781788838382) [[Amazon]](https://www.amazon.com/dp/1788838386)
 
-* Building RESTful Web Services with Spring 5 - Second Edition [[Packt]](https://www.packtpub.com/application-development/building-restful-web-services-spring-5-second-edition?utm_source=github&utm_medium=repository&utm_campaign=9781788475891) [[Amazon]](https://www.amazon.com/dp/1788-475895)
+* Building RESTful Web Services with Spring 5 - Second Edition [[Packt]](https://www.packtpub.com/application-development/building-restful-web-services-spring-5-second-edition?utm_source=github&utm_medium=repository&utm_campaign=9781788475891) [[Amazon]](https://www.amazon.com/dp/1788475895)
 
 ## Get to Know the Author
 **Juha Hinkula**

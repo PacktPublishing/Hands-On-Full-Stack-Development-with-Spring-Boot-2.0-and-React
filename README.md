@@ -52,9 +52,9 @@ With the following software and hardware list you can run all code files present
 
 * Building RESTful Web Services with Spring 5 - Second Edition [[Packt]](https://www.packtpub.com/application-development/building-restful-web-services-spring-5-second-edition?utm_source=github&utm_medium=repository&utm_campaign=9781788475891) [[Amazon]](https://www.amazon.com/dp/1788-475895)
 
-## Get to Know the Author(s)
+## Get to Know the Author
 **Juha Hinkula**
-Juha Hinkula is a software development lecturer at Haaga-Helia University of Applied Sciences in Finland. He received an MSc degree in computer science from the University of Helsinki. He has over 15 years of industry experience in software development. Over the past few years, he has focused on modern full stack development. He is also a passionate mobile developer with Android native technology and nowadays also uses React Native.
+is a software development lecturer at Haaga-Helia University of Applied Sciences in Finland. He received an MSc degree in computer science from the University of Helsinki. He has over 15 years of industry experience in software development. Over the past few years, he has focused on modern full stack development. He is also a passionate mobile developer with Android native technology and nowadays also uses React Native.
 
 ### Suggestions and Feedback
 [Click here](https://docs.google.com/forms/d/e/1FAIpQLSdy7dATC6QmEL81FIUuymZ0Wy9vH1jHkvpY57OiMeKGqib_Ow/viewform) if you have any feedback or suggestions.

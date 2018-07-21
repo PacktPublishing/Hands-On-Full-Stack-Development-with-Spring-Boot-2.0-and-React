@@ -12,6 +12,7 @@ import javax.persistence.OneToMany;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
 @Entity
+@JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
 public class Owner {
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
